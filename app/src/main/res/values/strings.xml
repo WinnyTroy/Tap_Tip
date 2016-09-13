@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">tipster</string>
+
+    <string name="bill_text_view">Bet</string>
+    <string name="bill_Edit_text_view">0.0</string>
+    <string name="odds_text_view">Odds</string>
+    <string name="Odds_Edit_Text_View">1.5</string>
+    <string name="Wins_Text_View">Wins</string>
+    <string name="Wins_Edit_Text_View">1.5</string>
+    <string name="Change_Odd_view">Quantum</string>
+</resources>

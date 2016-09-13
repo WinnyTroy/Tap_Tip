@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.troy.tipster.Tap_Tip">
+
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="@string/bill_text_view"
+        android:id="@+id/bill_text_view"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="35sp"
+        android:layout_marginTop="51dp"
+        android:layout_marginLeft="15dp"/>
+
+    <EditText
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/bill_Edit_text_view"
+        android:id="@+id/bill_Edit_text_view"
+        android:layout_alignBottom="@+id/bill_text_view"
+        android:layout_toRightOf="@+id/bill_text_view"
+        android:layout_toEndOf="@+id/bill_text_view"
+        android:layout_marginLeft="91dp"
+        android:layout_marginStart="51dp"
+        android:textSize="35sp"
+        android:inputType="numberDecimal"
+        android:layout_alignTop="@+id/bill_text_view" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="@string/odds_text_view"
+        android:id="@+id/odds_text_view"
+        android:textSize="35sp"
+        android:layout_below="@+id/bill_text_view"
+        android:layout_alignLeft="@+id/bill_text_view"
+        android:layout_alignStart="@+id/bill_text_view" />
+
+    <EditText
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/Odds_Edit_Text_View"
+        android:id="@+id/Odds_Edit_Text_View"
+        android:textSize="35sp"
+        android:layout_below="@+id/bill_Edit_text_view"
+        android:layout_alignLeft="@+id/bill_Edit_text_view"
+        android:layout_alignStart="@+id/bill_Edit_text_view"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="@string/Wins_Text_View"
+        android:id="@+id/Wins_Text_View"
+        android:textSize="35sp"
+        android:layout_below="@+id/Odds_Edit_Text_View"
+        android:layout_alignLeft="@+id/Odds_Edit_Text_View"
+        android:layout_alignStart="@+id/Odds_Edit_Text_View"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="@string/Wins_Edit_Text_View"
+        android:id="@+id/Wins_Edit_Text_View"
+        android:layout_below="@+id/Odds_Edit_Text_View"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/Odds_Edit_Text_View"
+        android:layout_toEndOf="@+id/Odds_Edit_Text_View"
+        android:layout_marginTop="20dp"
+        android:inputType="numberDecimal" />
+</RelativeLayout>
